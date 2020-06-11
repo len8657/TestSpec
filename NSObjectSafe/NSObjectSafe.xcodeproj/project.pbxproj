@@ -16,6 +16,7 @@
 		BF41F4B52492208800F6EF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4B42492208800F6EF51 /* main.m */; };
 		BF41F4BF2492208800F6EF51 /* NSObjectSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4BE2492208800F6EF51 /* NSObjectSafeTests.m */; };
 		BF41F4CA2492208800F6EF51 /* NSObjectSafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4C92492208800F6EF51 /* NSObjectSafeUITests.m */; };
+		BF41F4DA2492222400F6EF51 /* NSObjectSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4D82492222400F6EF51 /* NSObjectSafe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		BF41F4C52492208800F6EF51 /* NSObjectSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSObjectSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF41F4C92492208800F6EF51 /* NSObjectSafeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObjectSafeUITests.m; sourceTree = "<group>"; };
 		BF41F4CB2492208800F6EF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF41F4D82492222400F6EF51 /* NSObjectSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectSafe.m; sourceTree = "<group>"; };
+		BF41F4D92492222400F6EF51 /* NSObjectSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectSafe.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		BF41F4A12492208500F6EF51 /* NSObjectSafe */ = {
 			isa = PBXGroup;
 			children = (
+				BF41F4D72492222400F6EF51 /* NSObjectSafe */,
 				BF41F4A22492208500F6EF51 /* AppDelegate.h */,
 				BF41F4A32492208500F6EF51 /* AppDelegate.m */,
 				BF41F4A52492208500F6EF51 /* SceneDelegate.h */,
@@ -135,6 +139,15 @@
 				BF41F4CB2492208800F6EF51 /* Info.plist */,
 			);
 			path = NSObjectSafeUITests;
+			sourceTree = "<group>";
+		};
+		BF41F4D72492222400F6EF51 /* NSObjectSafe */ = {
+			isa = PBXGroup;
+			children = (
+				BF41F4D82492222400F6EF51 /* NSObjectSafe.m */,
+				BF41F4D92492222400F6EF51 /* NSObjectSafe.h */,
+			);
+			path = NSObjectSafe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +282,7 @@
 			files = (
 				BF41F4AA2492208500F6EF51 /* ViewController.m in Sources */,
 				BF41F4A42492208500F6EF51 /* AppDelegate.m in Sources */,
+				BF41F4DA2492222400F6EF51 /* NSObjectSafe.m in Sources */,
 				BF41F4B52492208800F6EF51 /* main.m in Sources */,
 				BF41F4A72492208500F6EF51 /* SceneDelegate.m in Sources */,
 			);
