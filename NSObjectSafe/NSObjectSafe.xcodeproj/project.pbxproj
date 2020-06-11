@@ -16,7 +16,8 @@
 		BF41F4B52492208800F6EF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4B42492208800F6EF51 /* main.m */; };
 		BF41F4BF2492208800F6EF51 /* NSObjectSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4BE2492208800F6EF51 /* NSObjectSafeTests.m */; };
 		BF41F4CA2492208800F6EF51 /* NSObjectSafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4C92492208800F6EF51 /* NSObjectSafeUITests.m */; };
-		BF41F4DA2492222400F6EF51 /* NSObjectSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4D82492222400F6EF51 /* NSObjectSafe.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF41F4DF2492269E00F6EF51 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4DB2492269D00F6EF51 /* YYWeakProxy.m */; };
+		BF41F4E02492269E00F6EF51 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4DD2492269E00F6EF51 /* YYFPSLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +56,10 @@
 		BF41F4C52492208800F6EF51 /* NSObjectSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSObjectSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF41F4C92492208800F6EF51 /* NSObjectSafeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObjectSafeUITests.m; sourceTree = "<group>"; };
 		BF41F4CB2492208800F6EF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF41F4D82492222400F6EF51 /* NSObjectSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectSafe.m; sourceTree = "<group>"; };
-		BF41F4D92492222400F6EF51 /* NSObjectSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectSafe.h; sourceTree = "<group>"; };
+		BF41F4DB2492269D00F6EF51 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		BF41F4DC2492269E00F6EF51 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		BF41F4DD2492269E00F6EF51 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		BF41F4DE2492269E00F6EF51 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +147,10 @@
 		BF41F4D72492222400F6EF51 /* NSObjectSafe */ = {
 			isa = PBXGroup;
 			children = (
-				BF41F4D82492222400F6EF51 /* NSObjectSafe.m */,
-				BF41F4D92492222400F6EF51 /* NSObjectSafe.h */,
+				BF41F4DE2492269E00F6EF51 /* YYFPSLabel.h */,
+				BF41F4DD2492269E00F6EF51 /* YYFPSLabel.m */,
+				BF41F4DC2492269E00F6EF51 /* YYWeakProxy.h */,
+				BF41F4DB2492269D00F6EF51 /* YYWeakProxy.m */,
 			);
 			path = NSObjectSafe;
 			sourceTree = "<group>";
@@ -280,11 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF41F4E02492269E00F6EF51 /* YYFPSLabel.m in Sources */,
 				BF41F4AA2492208500F6EF51 /* ViewController.m in Sources */,
 				BF41F4A42492208500F6EF51 /* AppDelegate.m in Sources */,
-				BF41F4DA2492222400F6EF51 /* NSObjectSafe.m in Sources */,
 				BF41F4B52492208800F6EF51 /* main.m in Sources */,
 				BF41F4A72492208500F6EF51 /* SceneDelegate.m in Sources */,
+				BF41F4DF2492269E00F6EF51 /* YYWeakProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
