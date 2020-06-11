@@ -16,7 +16,7 @@
 		BF41F4B52492208800F6EF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4B42492208800F6EF51 /* main.m */; };
 		BF41F4BF2492208800F6EF51 /* NSObjectSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4BE2492208800F6EF51 /* NSObjectSafeTests.m */; };
 		BF41F4CA2492208800F6EF51 /* NSObjectSafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4C92492208800F6EF51 /* NSObjectSafeUITests.m */; };
-		BF41F4DA2492222400F6EF51 /* NSObjectSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4D82492222400F6EF51 /* NSObjectSafe.m */; };
+		BF41F4DA2492222400F6EF51 /* NSObjectSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41F4D82492222400F6EF51 /* NSObjectSafe.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
