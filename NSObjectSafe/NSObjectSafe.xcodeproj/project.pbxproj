@@ -110,7 +110,7 @@
 		BF41F4A12492208500F6EF51 /* NSObjectSafe */ = {
 			isa = PBXGroup;
 			children = (
-				BF41F4D72492222400F6EF51 /* NSObjectSafe */,
+				BF41F4D72492222400F6EF51 /* YYFPSLabel */,
 				BF41F4A22492208500F6EF51 /* AppDelegate.h */,
 				BF41F4A32492208500F6EF51 /* AppDelegate.m */,
 				BF41F4A52492208500F6EF51 /* SceneDelegate.h */,
@@ -144,7 +144,7 @@
 			path = NSObjectSafeUITests;
 			sourceTree = "<group>";
 		};
-		BF41F4D72492222400F6EF51 /* NSObjectSafe */ = {
+		BF41F4D72492222400F6EF51 /* YYFPSLabel */ = {
 			isa = PBXGroup;
 			children = (
 				BF41F4DE2492269E00F6EF51 /* YYFPSLabel.h */,
@@ -152,7 +152,7 @@
 				BF41F4DC2492269E00F6EF51 /* YYWeakProxy.h */,
 				BF41F4DB2492269D00F6EF51 /* YYWeakProxy.m */,
 			);
-			path = NSObjectSafe;
+			path = YYFPSLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
